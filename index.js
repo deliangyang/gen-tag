@@ -30,7 +30,7 @@ const askQuestions = () => {
             type: "list",
             name: "branch",
             message: "What is the branch of the tag?",
-            choices: ["audit", "stable",],
+            choices: ["audit", "release",],
         },
         {
             type: "input",
@@ -46,6 +46,9 @@ const success = (branch, tag, comment) => {
         echo('Sorry, this script requires git');
         exit(1);
     }
+	  if (branch === 'release') {
+				branch = 'stable';
+		}
     let command = `
         cd ${WORK_DIR}
         git checkout ${branch}
