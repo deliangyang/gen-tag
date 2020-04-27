@@ -1,9 +1,9 @@
 
 ### How to use it
 
-> 修改`index.js`，修改`{WORK_DIR}`, `{TAG_PREFIX}`。  
+> Edit `index.js`，and modify it: `{WORK_DIR}`, `{TAG_PREFIX}`。  
 
-```bash
+```basha
 vim ~/.bash_profile
 
 alias gen-tag=/usr/local/bin/node ${your_path}/index.js
