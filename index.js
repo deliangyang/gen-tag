@@ -4,8 +4,8 @@ const figlet = require("figlet");
 const moment = require('moment');
 require('shelljs/global');
 
-const WORK_DIR = '/Users/ydl/work/company/api-site';
-const TAG_PREFIX = 'yuechang';
+const WORK_DIR = process.env.WORK_DIR;
+const TAG_PREFIX = process.env.TAG_PREFIX;
 
 const init = () => {
     console.log(
@@ -68,8 +68,7 @@ const renderTag = (branch, version) => {
     return [
         TAG_PREFIX,
         branch,
-        version,
-        _today.format('YYYYMMDDHHmm'),
+        version + '.' +  _today.format('YYYYMMDDHHmm'),
     ].join('-');
 };
 
