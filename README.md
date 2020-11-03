@@ -1,6 +1,6 @@
 ### How to use it
 
-```
+```bash
 cd ${your_path}
 
 npm install
