@@ -59,7 +59,7 @@ const success = (branch, tag, comment) => {
     `;
     exec(command);
     console.log(
-        chalk.white.bgGreen.bold(`Done! tag created at ${tag}`)
+        chalk.white.bgGreen.bold(`Done! tag created at\n\t ${tag}`)
     );
 };
 
