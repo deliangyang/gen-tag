@@ -1,6 +1,6 @@
 {
   "name": "gen-tag",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "",
   "main": "index.js",
   "keywords": [
@@ -17,6 +17,10 @@
     "url": "blog.sourcedev.cc"
   },
   "repository": "git://github.com/deliangyang/gen-tag.git",
+  "bugs": {
+    "url": "https://github.com/deliangyang/gen-tag/issues"
+  },
+  "homepage": "https://github.com/deliangyang/gen-tag",
   "license": "ISC",
   "dependencies": {
     "chalk": "^3.0.0",
