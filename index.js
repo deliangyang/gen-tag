@@ -82,4 +82,4 @@ const run = async () => {
     success(branch, tag, comment);
 };
 
-run();
+run().then(r => console.log(r));
