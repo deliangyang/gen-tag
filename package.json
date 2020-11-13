@@ -1,7 +1,7 @@
 {
-  "name": "gen-tag",
-  "version": "1.0.2",
-  "description": "",
+  "name": "@deliangyang/gen-tag",
+  "version": "1.0.3",
+  "description": "gen tag",
   "main": "index.js",
   "keywords": [
     "git",
@@ -16,7 +16,10 @@
     "email": "yang623601391@gmail.com",
     "url": "blog.sourcedev.cc"
   },
-  "repository": "git://github.com/deliangyang/gen-tag.git",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/deliangyang/gen-tag"
+  },
   "bugs": {
     "url": "https://github.com/deliangyang/gen-tag/issues"
   },
